@@ -19,6 +19,7 @@ import {
   PromoTitle,
   PromoImg,
   PromoDescription,
+  Content,
 } from './styles';
 
 export default function Intro() {
@@ -32,29 +33,39 @@ export default function Intro() {
         <Boxes>
           <Box>
             <BoxImg src={copacabana}/>
-            <BoxTitle>Title</BoxTitle>
-            <BoxPrice>$ 250.00</BoxPrice>
+            <Content>
+              <BoxTitle>Title</BoxTitle>
+              <BoxPrice>$ 250.00</BoxPrice>
+            </Content>
           </Box>
           <Box>
-            <BoxImg/>
-            <BoxTitle>Title</BoxTitle>
-            <BoxPrice>$ 250.00</BoxPrice>
+            <BoxImg src={copacabana}/>
+            <Content>
+              <BoxTitle>Title</BoxTitle>
+              <BoxPrice>$ 250.00</BoxPrice>
+            </Content>
           </Box>
           <Box>
-            <BoxImg/>
-            <BoxTitle>Title</BoxTitle>
-            <BoxPrice>$ 250.00</BoxPrice>
+            <BoxImg src={copacabana}/>
+            <Content>
+              <BoxTitle>Title</BoxTitle>
+              <BoxPrice>$ 250.00</BoxPrice>
+            </Content>
           </Box>
           <Box>
-            <BoxImg/>
-            <BoxTitle>Title</BoxTitle>
-            <BoxPrice>$ 250.00</BoxPrice>
+            <BoxImg src={copacabana}/>
+            <Content>
+              <BoxTitle>Title</BoxTitle>
+              <BoxPrice>$ 250.00</BoxPrice>
+            </Content>
           </Box>
         </Boxes>
         <Promo>
-          <PromoTitle>Look at this amazing place</PromoTitle>
-          <PromoImg/>
-          <PromoDescription>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</PromoDescription>
+          <PromoImg src={copacabana}/>
+          <Content>
+            <PromoTitle>65% OFF!</PromoTitle>
+            <PromoDescription>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</PromoDescription>
+          </Content>
         </Promo>
       </GridContainer>
     </Container>

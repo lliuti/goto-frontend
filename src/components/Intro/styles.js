@@ -20,7 +20,7 @@ export const Top = styled.div`
 `;
 export const Title = styled.h1`
   color: #777fff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 42px;
 
   span {
@@ -61,7 +61,7 @@ export const Box = styled.div`
 `;
 export const BoxTitle = styled.h2`
   color: #fff;
-  margin: 10px 0;
+  margin: 5px 0;
 `;
 export const BoxImg = styled.img`
   width: 100%;
@@ -69,14 +69,38 @@ export const BoxImg = styled.img`
 `;
 export const BoxPrice = styled.span`
   color: #f1f1f1;
-  margin: 0 0 10px;
+  margin: 0 0 5px;
 `;
 //
-export const Promo = styled.div``;
+export const Promo = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+
+  border: 2px solid #fff;
+  border-radius: 4px;
+  transition: 250ms all;
+  cursor: pointer;
+
+  &:hover {
+    border-color: #777fff;
+  };
+`;
+export const Content = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
 export const PromoTitle = styled.h2`
   color: #fff;
+  margin-bottom: 20px;
 `;
-export const PromoImg = styled.img``;
+export const PromoImg = styled.img`
+  width: 100%;
+`;
 export const PromoDescription = styled.p`
   color: #f1f1f1;
 `;
