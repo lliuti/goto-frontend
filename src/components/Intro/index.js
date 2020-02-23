@@ -34,28 +34,28 @@ export default function Intro() {
           <Box>
             <BoxImg src={copacabana}/>
             <Content>
-              <BoxTitle>Title</BoxTitle>
+              <BoxTitle>Rio De Janeiro</BoxTitle>
               <BoxPrice>$ 250.00</BoxPrice>
             </Content>
           </Box>
           <Box>
             <BoxImg src={copacabana}/>
             <Content>
-              <BoxTitle>Title</BoxTitle>
+              <BoxTitle>Rio De Janeiro</BoxTitle>
               <BoxPrice>$ 250.00</BoxPrice>
             </Content>
           </Box>
           <Box>
             <BoxImg src={copacabana}/>
             <Content>
-              <BoxTitle>Title</BoxTitle>
+              <BoxTitle>Rio De Janeiro</BoxTitle>
               <BoxPrice>$ 250.00</BoxPrice>
             </Content>
           </Box>
           <Box>
             <BoxImg src={copacabana}/>
             <Content>
-              <BoxTitle>Title</BoxTitle>
+              <BoxTitle>Rio De Janeiro</BoxTitle>
               <BoxPrice>$ 250.00</BoxPrice>
             </Content>
           </Box>

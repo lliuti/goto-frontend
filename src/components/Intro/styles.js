@@ -65,7 +65,6 @@ export const BoxTitle = styled.h2`
 `;
 export const BoxImg = styled.img`
   width: 100%;
-  border-radius: 4px;
 `;
 export const BoxPrice = styled.span`
   color: #f1f1f1;
